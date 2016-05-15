@@ -1,6 +1,6 @@
 {
   "name": "material-typography",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/juliancoleman/material-typography"
@@ -21,13 +21,13 @@
     "postinstall": "npm run suppath && npm run build:all"
   },
   "dependencies": {
+    "concurrently": "^2.1.0",
     "less": "~2.6.1",
     "node-sass": "^3.5.3",
     "stylus": "~0.54.2"
   },
   "devDependencies": {
     "clean-css": "^3.4.12",
-    "concurrently": "~2.0.0",
     "scss-lint": "~0.0.0"
   }
 }
